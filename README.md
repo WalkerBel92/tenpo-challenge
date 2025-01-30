@@ -12,7 +12,7 @@ Este proyecto es un desafío para un ingeniero de software backend. Consiste en 
 
 1. Clona el repositorio:
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
+    git clone https://github.com/WalkerBel92/tenpo-challenge
     cd challenge
     ```
 
