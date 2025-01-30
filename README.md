@@ -13,7 +13,7 @@ Este proyecto es un desafío para un ingeniero de software backend. Consiste en 
 1. Clona el repositorio:
     ```bash
     git clone https://github.com/WalkerBel92/tenpo-challenge
-    cd challenge
+    cd tenpo-challenge
     ```
 
 2. Asegúrate de tener `Java 21`, `Maven` y `Docker` instalados en tu máquina.
