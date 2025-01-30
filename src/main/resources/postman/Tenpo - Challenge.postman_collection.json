@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "c4091d64-d9f8-46bf-91f8-943848b9b0af",
+		"name": "Tenpo - Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3053507"
+	},
+	"item": [
+		{
+			"name": "Calculation",
+			"item": [
+				{
+					"name": "Calculate",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/calculation/?number1=12&number2=50",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"calculation",
+								""
+							],
+							"query": [
+								{
+									"key": "number1",
+									"value": "12"
+								},
+								{
+									"key": "number2",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CallLog",
+			"item": [
+				{
+					"name": "List Pageable",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/call-logs/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"call-logs",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

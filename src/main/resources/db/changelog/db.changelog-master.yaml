@@ -1,0 +1,45 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: bbeltran
+      changes:
+        - createTable:
+            tableName: call_logs
+            columns:
+              - column:
+                  name: id
+                  type: SERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: timestamp
+                  type: TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: endpoint
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: parameters
+                  type: TEXT
+              - column:
+                  name: response
+                  type: TEXT
+              - column:
+                  name: error
+                  type: TEXT
+  - changeSet:
+      id: 2
+      author: WalkerBel92
+      changes:
+        - addColumn:
+            tableName: call_logs
+            columns:
+              - column:
+                  name: status_code
+                  type: int
+                  constraints:
+                    nullable: true
